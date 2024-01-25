@@ -1,19 +1,36 @@
 class App {
     runApplication() {
-    console.clear();
-        console.log("hello world")
+        console.clear();
+        this.mario();
+        bwahaha();
+        optellen(5,6);
+        extra();
 
     }
 
-    myClassFunction(biem){
-        console.log("dit is een argument");
-        console.log("hier:");
-        console.log(biem);
+    mario()
+    {
+        console.log("MARIOOOOOO");
+    }
+
+    bwahaha()
+    {
+        console.log("bwahahaha");
+    }
+
+    optellen(x,y)
+    {
+        console.log(x + y);
 
     }
-    
+
+    extra()
+    {
+        console.log("hallo ik ben een extra functie");
+
+    }
 }
 
 
 let app = new App();
-app.myClassFunction("argument");
+app.runApplication();
