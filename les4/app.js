@@ -1,17 +1,15 @@
 class App {
     runApplication() {
-        console.clear();
-
-        function argumentsAreHandy(shoutout,shoutout2,shoutout3){
-            console.log("could you give me a shoutout?");
-            console.log(shoutout);
-            console.log(shoutout2);
-            console.log(shoutout3);
+    
+        function rekenen(x, y, z) {
+            let antwoord = x * y * z;
+            return antwoord;
         }
-        argumentsAreHandy("mega super shoutout","biembiembambam", "super mega turbo giga astro shoutout");
+        console.log(rekenen(10, 10, 10));
+
     }
 }
 
-let app = new App();
 
+let app = new App();
 app.runApplication();
