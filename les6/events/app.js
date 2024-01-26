@@ -1,10 +1,12 @@
-class App {
-    runApplication() {
-        console.clear();
-        let uiButton = document.getElementById("myButton");
-        uiButton.addEventListener("click", function (e) {
-            console.log("click");
-        });
+class App
+{
+    runApplication()
+    {
+        console.log("hello world!");
+        let uiButton = document.getElementById("myButton")
+        uiButton.addEventListener("click",(e)=>{
+            console.log("click!")
+        })
     }
 }
 
